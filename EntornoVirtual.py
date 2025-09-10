@@ -17,3 +17,11 @@
 
 #pip install requests==2.25.1
 #Esto instalará la versión 2.26.1 de requests.
+
+#py -m venv mi_primer-entorno-v
+#Este comando le dice a Windows: "Usa el lanzador py para ejecutar el módulo (-m) de Python 
+# llamado venv y crea un entorno llamado mi_primer-entorno-v".
+
+#pip freeze > requirements.txt
+#Este comando crea un archivo llamado requirements.txt que contiene una lista de todos los paquetes
+# instalados en el entorno virtual, junto con sus versiones exactas.
