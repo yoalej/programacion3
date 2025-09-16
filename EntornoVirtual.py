@@ -121,6 +121,15 @@ print("Listando archivos en el directorio actual:")
 archivos = os.listdir('.')
 for archivo in archivos:
     print(f"- {archivo}")   
-print("¡Gracias por usar os! 📂")
+print("¡Gracias por usar 2os! 📂")
 print("*********************************")
 print("*********************************")  
+
+# archivo: ejemplo_sys.py
+import sys      
+print("Información del sistema:")
+# Mostramos la versión de Python  
+print(f"Versión de Python: {sys.version}")
+print(f"Plataforma: {sys.platform}")
+print("¡Gracias por usar sys! 💻"   )
+print("*********************************")
